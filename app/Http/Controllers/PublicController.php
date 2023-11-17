@@ -12,10 +12,12 @@ class PublicController extends Controller
         return view('home');
     }
 
-    public function category()
+    public function category(Request $request)
     {
-        $filter = Input::get('filter');
-        return view('category');
+        $filter = $request->filter;
+        return view('category', [
+            'filter' => $filter
+        ]);
     }
 
     public function myLibrary()
