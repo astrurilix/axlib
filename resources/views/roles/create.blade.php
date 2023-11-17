@@ -1,0 +1,1 @@
+@extends('layout.main', ['title' => 'Create Role'])
