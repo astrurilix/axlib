@@ -21,7 +21,7 @@ use App\Http\Controllers\RoleController;
 
 Route::get('/', [PublicController::class, 'index'])->name('home');
 Route::get('/category', [PublicController::class, 'category'])->name('category');
-Route::get('/myLibrary', [PublicController::class, 'myLibrary'])->name('myLibrary');
+Route::get('/my-library', [PublicController::class, 'myLibrary'])->name('myLibrary');
 
 Route::resource('users', UserController::class);
 Route::resource('books', BookController::class);
