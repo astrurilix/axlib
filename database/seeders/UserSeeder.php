@@ -18,12 +18,22 @@ class UserSeeder extends Seeder
             'email'         => "kenly@gmail.com",
             'password'      => "q",
             'address'       => "Semarang",
-            'gender'        => "Male",
             'phone'         => "087731335955",
             'birthdate'     => "2003-08-10",
-            'birthplace'    => "Semarang",
             'instagram'     => "mkks_1710",
             'email_verified_at' => now(),
         ]);
+        
+        User::create([
+            'name'          => "Soen Anita Sanjaya",
+            'email'         => "anita@gmail.com",
+            'password'      => "q",
+            'address'       => "Semarang",
+            'phone'         => "088225179554",
+            'birthdate'     => "2003-08-10",
+            'instagram'     => "fbbysn",
+            'email_verified_at' => now(),
+        ]);
+
     }
 }

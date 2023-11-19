@@ -1,1 +1,1 @@
-@extends('layout.main', ['title' => 'Create Category'])
+@extends('layouts.main', ['title' => 'Create Category'])

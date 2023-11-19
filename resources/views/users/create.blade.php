@@ -1,1 +1,1 @@
-@extends('layout.main', ['title' => 'Create User'])
+@extends('layouts.main', ['title' => 'Create User'])

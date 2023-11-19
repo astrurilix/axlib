@@ -1,1 +1,1 @@
-@extends('layout.main', ['title' => 'Edit User'])
+@extends('layouts.main', ['title' => 'Edit User'])

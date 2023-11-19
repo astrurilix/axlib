@@ -1,1 +1,1 @@
-@extends('layout.main', ['title' => 'Edit Book'])
+@extends('layouts.main', ['title' => 'Edit Book'])

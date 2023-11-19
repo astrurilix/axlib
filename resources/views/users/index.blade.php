@@ -1,4 +1,4 @@
-@extends('layout.main', ['title' => 'Users'])
+@extends('layouts.main', ['title' => 'Users'])
 
 @section('css')
     <style>
